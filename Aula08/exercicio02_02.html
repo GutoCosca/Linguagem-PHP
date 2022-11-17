@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta</title>
+    <link rel="stylesheet" href="../_css/estilo.css">
+</head>
+<body>
+    <div>
+        <form action="idade02.php" method="get">
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" maxlength="40"><br/>
+            <label for="iano">Ano de Nascimento:</label>
+            <input type="number" name="ano" id="iano" maxlength="4">
+            <fieldset>
+                <legend>Sexo</legend>
+                <input type="radio" name="sexo" id="imasc" value="M">
+                <label for="imasc">Masculino</label><br/>
+                <input type="radio" name="sexo" id="ifem" value="F">
+                <label for="ifem">Feminino</label>
+            </fieldset><br/>
+            <input type="submit" value="Enviar">
+        </form>
+        <a href="exercicio02.html">Voltar</a>
+    </div>
+</body>
+</html>
